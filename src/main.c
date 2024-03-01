@@ -55,9 +55,13 @@ static void gooseListener(GooseSubscriber subscriber, void* parameter)
     }
 }
 
-int main()
+int main(int argc, char** argv)
 {
-    const char* interface = "enp5s0";
+    char* interface;
+    if (argc > 1)
+        interface = argv[1];
+    else
+        interface = "enp5s0";
 
     IedServerConfig config = IedServerConfig_create();
 
@@ -151,7 +155,7 @@ int main()
     GooseReceiver_stop(receiver);
     IedServer_stop(iedServer);
 
-    printf("\nServer stoped.\n");
+    printf("\nServer stopped.\n");
 
     GooseReceiver_destroy(receiver);
     IedServer_destroy(iedServer);
