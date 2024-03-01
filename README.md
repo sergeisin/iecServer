@@ -12,9 +12,15 @@ Simple iec61850 server
 
 ## Run
 ``` bash
-sudo .\build\iecServer
+sudo .\build\iecServer eth0
+```
+
+## Check memory leaks
+``` bash
+sudo valgrind --tool=memcheck .\build\iecServer eth0
 ```
 
 ## Clean
 ``` bash
 rm -rf build
+```
