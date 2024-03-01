@@ -1,0 +1,8 @@
+# Build folders
+build/
+
+# VS Code
+.vscode/
+
+# libiec61580
+libiec61580/
