@@ -4,5 +4,5 @@ build/
 # VS Code
 .vscode/
 
-# libiec61580
-libiec61580/
+# libiec61850
+libiec61850/
