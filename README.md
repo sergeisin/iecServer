@@ -7,17 +7,17 @@ Simple iec61850 server
 
 ## Clone libiec61580 + build iecServer
 ``` bash
-.\build.sh
+./build.sh
 ```
 
 ## Run
 ``` bash
-sudo .\build\iecServer eth0
+sudo ./build/iecServer eth0
 ```
 
 ## Check memory leaks
 ``` bash
-sudo valgrind --tool=memcheck .\build\iecServer eth0
+sudo valgrind --tool=memcheck ./build/iecServer eth0
 ```
 
 ## Clean
