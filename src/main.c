@@ -5,7 +5,6 @@
 
 #include <signal.h>
 #include <stdio.h>
-#include <time.h>
 
 #include "modelBuilder.h"
 
