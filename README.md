@@ -5,7 +5,12 @@ Simple iec61850 server
 - Goose Publisher
 - Goose Subscriber
 
-## Clone libiec61580 + build iecServer
+## Requirements
+``` bash
+git clone https://github.com/mz-automation/libiec61850.git
+```
+
+## Build
 ``` bash
 ./build.sh
 ```
