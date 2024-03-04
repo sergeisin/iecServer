@@ -17,6 +17,7 @@ include_directories(
     libiec61850/src/iec61850/inc/
     libiec61850/src/mms/inc/
     libiec61850/src/goose/
+    libiec61850/src/logging/
 )
 
 add_subdirectory(libiec61850)
