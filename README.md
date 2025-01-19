@@ -1,12 +1,9 @@
 # iecServer
-Simple iec61850 server
+Simple iec61850 server based on libiec61850 v1.5.3
 - Dynamic data model
 - DataSet + Reports
 - Goose Publisher
 - Goose Subscriber
-
-## Dependencies
-- libiec61850 v1.5.3
 
 ## Build
 ``` bash
