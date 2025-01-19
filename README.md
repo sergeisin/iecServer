@@ -5,10 +5,8 @@ Simple iec61850 server
 - Goose Publisher
 - Goose Subscriber
 
-## Requirements
-``` bash
-git clone https://github.com/mz-automation/libiec61850.git
-```
+## Dependencies
+- libiec61850 v1.5.3
 
 ## Build
 ``` bash
@@ -20,12 +18,12 @@ git clone https://github.com/mz-automation/libiec61850.git
 sudo ./build/iecServer eth0
 ```
 
-## Check memory leaks
-``` bash
-sudo valgrind --tool=memcheck ./build/iecServer eth0
-```
-
 ## Clean
 ``` bash
 rm -rf build
+```
+
+## Check memory leaks
+``` bash
+sudo valgrind --tool=memcheck ./build/iecServer eth0
 ```
